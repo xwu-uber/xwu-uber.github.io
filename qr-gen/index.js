@@ -45,10 +45,10 @@ function main() {
 		'white', 'black',
 		'white', 'black',
 	];
-	draw(ctx, {gap:gap.valueAsNumber}, colorWithMap(mapBool, test));
+	draw(ctx, {gap:gap.valueAsNumber}, colorWithMap(mapType, test));
 
 	gap.addEventListener('change', e => {
-		draw(ctx, {gap:gap.valueAsNumber}, colorWithMap(mapBool, test));
+		draw(ctx, {gap:gap.valueAsNumber}, colorWithMap(mapType, test));
 	});
 }
 
